@@ -1,0 +1,26 @@
+{
+    "name": "truesocialmetrics/service-file-format-convertor-csv2xlsx",
+    "type": "library",
+    "description": "convert csv to xlsx (excel)",
+    "keywords": ["convertor", "csv", "excel"],
+    "homepage": "https://github.com/truesocialmetrics/service-file-format-convertor-csv2xlsx",
+    "authors": [
+        {
+            "name": "Rostislav Mykhajliw",
+            "email": "necromant2005@gmail.com",
+            "homepage": "https://github.com/necromant2005",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=7.1",
+        "phpoffice/phpspreadsheet": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twee\\Service\\FileFormatConvertor\\": "src/FileFormatConvertor/"
+        }
+    }
+}
