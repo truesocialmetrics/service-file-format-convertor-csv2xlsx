@@ -1,0 +1,16 @@
+build:
+  box:
+    id: truesocialmetrics/service-file-format-convertor-csv2xlsx
+  steps:
+    - script:
+        name: composer-setup-cache
+        code: |
+          composer config -g cache-dir $WERCKER_CACHE_DIR
+    - script:
+        name: composer-install
+        code: |
+          composer install
+    - script:
+        name: phpunit
+        code: |
+          phpunit
