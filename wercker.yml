@@ -9,7 +9,7 @@ build:
     - script:
         name: composer-install
         code: |
-          composer install
+          composer install --ignore-platform-reqs
     - script:
         name: phpunit
         code: |
