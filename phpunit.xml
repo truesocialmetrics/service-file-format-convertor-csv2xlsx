@@ -7,7 +7,6 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false"
-         syntaxCheck="true"
          verbose="false"
          bootstrap="vendor/autoload.php"
 >
@@ -15,6 +14,7 @@
   <filter>
     <whitelist>
       <directory suffix=".php">src</directory>
+      <directory suffix=".php">vendor</directory>
     </whitelist>
   </filter>
     <testsuites>
