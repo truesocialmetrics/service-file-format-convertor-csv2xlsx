@@ -4,7 +4,7 @@ namespace Twee\Service\FileFormatConvertor;
 
 use PHPUnit\Framework\TestCase;
 
-class Csv2ElsxTest extends TestCase
+class Csv2ExcelTest extends TestCase
 {
     public function testConvert()
     {
